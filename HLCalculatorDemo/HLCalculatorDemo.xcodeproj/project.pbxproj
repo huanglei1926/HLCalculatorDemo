@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFB4009B21F082EB00C9DF75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB4009A21F082EB00C9DF75 /* AppDelegate.m */; };
+		BFB4009E21F082EB00C9DF75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB4009D21F082EB00C9DF75 /* ViewController.m */; };
+		BFB400A121F082EB00C9DF75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB4009F21F082EB00C9DF75 /* Main.storyboard */; };
+		BFB400A321F082ED00C9DF75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB400A221F082ED00C9DF75 /* Assets.xcassets */; };
+		BFB400A621F082ED00C9DF75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB400A421F082ED00C9DF75 /* LaunchScreen.storyboard */; };
+		BFB400A921F082ED00C9DF75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB400A821F082ED00C9DF75 /* main.m */; };
+		BFB400B321F082ED00C9DF75 /* HLCalculatorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB400B221F082ED00C9DF75 /* HLCalculatorDemoTests.m */; };
+		BFB400BE21F082ED00C9DF75 /* HLCalculatorDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB400BD21F082ED00C9DF75 /* HLCalculatorDemoUITests.m */; };
+		BFB400CE21F0833F00C9DF75 /* HLCalculatorController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB400CD21F0833F00C9DF75 /* HLCalculatorController.m */; };
+		BFB400D121F0837300C9DF75 /* HLCalculatorItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB400D021F0837300C9DF75 /* HLCalculatorItemView.m */; };
+		BFB400D521F083E900C9DF75 /* HLCalculatorHistoryListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB400D321F083E900C9DF75 /* HLCalculatorHistoryListCell.m */; };
+		BFB400D621F083E900C9DF75 /* HLCalculatorHistoryListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB400D421F083E900C9DF75 /* HLCalculatorHistoryListCell.xib */; };
+		BFB400D821F0844200C9DF75 /* HLCalculatorItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB400D721F0844200C9DF75 /* HLCalculatorItemView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFB400AF21F082ED00C9DF75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFB4008E21F082EA00C9DF75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFB4009521F082EB00C9DF75;
+			remoteInfo = HLCalculatorDemo;
+		};
+		BFB400BA21F082ED00C9DF75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFB4008E21F082EA00C9DF75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFB4009521F082EB00C9DF75;
+			remoteInfo = HLCalculatorDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFB4009621F082EB00C9DF75 /* HLCalculatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLCalculatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB4009921F082EB00C9DF75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFB4009A21F082EB00C9DF75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFB4009C21F082EB00C9DF75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BFB4009D21F082EB00C9DF75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BFB400A021F082EB00C9DF75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFB400A221F082ED00C9DF75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFB400A521F082ED00C9DF75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFB400A721F082ED00C9DF75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB400A821F082ED00C9DF75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFB400AE21F082ED00C9DF75 /* HLCalculatorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLCalculatorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB400B221F082ED00C9DF75 /* HLCalculatorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLCalculatorDemoTests.m; sourceTree = "<group>"; };
+		BFB400B421F082ED00C9DF75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB400B921F082ED00C9DF75 /* HLCalculatorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLCalculatorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB400BD21F082ED00C9DF75 /* HLCalculatorDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLCalculatorDemoUITests.m; sourceTree = "<group>"; };
+		BFB400BF21F082ED00C9DF75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB400CC21F0833F00C9DF75 /* HLCalculatorController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLCalculatorController.h; sourceTree = "<group>"; };
+		BFB400CD21F0833F00C9DF75 /* HLCalculatorController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLCalculatorController.m; sourceTree = "<group>"; };
+		BFB400CF21F0837300C9DF75 /* HLCalculatorItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLCalculatorItemView.h; sourceTree = "<group>"; };
+		BFB400D021F0837300C9DF75 /* HLCalculatorItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLCalculatorItemView.m; sourceTree = "<group>"; };
+		BFB400D221F083E900C9DF75 /* HLCalculatorHistoryListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLCalculatorHistoryListCell.h; sourceTree = "<group>"; };
+		BFB400D321F083E900C9DF75 /* HLCalculatorHistoryListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLCalculatorHistoryListCell.m; sourceTree = "<group>"; };
+		BFB400D421F083E900C9DF75 /* HLCalculatorHistoryListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HLCalculatorHistoryListCell.xib; sourceTree = "<group>"; };
+		BFB400D721F0844200C9DF75 /* HLCalculatorItemView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HLCalculatorItemView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFB4009321F082EB00C9DF75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB400AB21F082ED00C9DF75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB400B621F082ED00C9DF75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFB4008D21F082EA00C9DF75 = {
+			isa = PBXGroup;
+			children = (
+				BFB4009821F082EB00C9DF75 /* HLCalculatorDemo */,
+				BFB400B121F082ED00C9DF75 /* HLCalculatorDemoTests */,
+				BFB400BC21F082ED00C9DF75 /* HLCalculatorDemoUITests */,
+				BFB4009721F082EB00C9DF75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFB4009721F082EB00C9DF75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFB4009621F082EB00C9DF75 /* HLCalculatorDemo.app */,
+				BFB400AE21F082ED00C9DF75 /* HLCalculatorDemoTests.xctest */,
+				BFB400B921F082ED00C9DF75 /* HLCalculatorDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFB4009821F082EB00C9DF75 /* HLCalculatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BFB400CB21F0832C00C9DF75 /* HLCalculatorClass */,
+				BFB4009921F082EB00C9DF75 /* AppDelegate.h */,
+				BFB4009A21F082EB00C9DF75 /* AppDelegate.m */,
+				BFB4009C21F082EB00C9DF75 /* ViewController.h */,
+				BFB4009D21F082EB00C9DF75 /* ViewController.m */,
+				BFB4009F21F082EB00C9DF75 /* Main.storyboard */,
+				BFB400A221F082ED00C9DF75 /* Assets.xcassets */,
+				BFB400A421F082ED00C9DF75 /* LaunchScreen.storyboard */,
+				BFB400A721F082ED00C9DF75 /* Info.plist */,
+				BFB400A821F082ED00C9DF75 /* main.m */,
+			);
+			path = HLCalculatorDemo;
+			sourceTree = "<group>";
+		};
+		BFB400B121F082ED00C9DF75 /* HLCalculatorDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFB400B221F082ED00C9DF75 /* HLCalculatorDemoTests.m */,
+				BFB400B421F082ED00C9DF75 /* Info.plist */,
+			);
+			path = HLCalculatorDemoTests;
+			sourceTree = "<group>";
+		};
+		BFB400BC21F082ED00C9DF75 /* HLCalculatorDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFB400BD21F082ED00C9DF75 /* HLCalculatorDemoUITests.m */,
+				BFB400BF21F082ED00C9DF75 /* Info.plist */,
+			);
+			path = HLCalculatorDemoUITests;
+			sourceTree = "<group>";
+		};
+		BFB400CB21F0832C00C9DF75 /* HLCalculatorClass */ = {
+			isa = PBXGroup;
+			children = (
+				BFB400CC21F0833F00C9DF75 /* HLCalculatorController.h */,
+				BFB400CD21F0833F00C9DF75 /* HLCalculatorController.m */,
+				BFB400CF21F0837300C9DF75 /* HLCalculatorItemView.h */,
+				BFB400D021F0837300C9DF75 /* HLCalculatorItemView.m */,
+				BFB400D721F0844200C9DF75 /* HLCalculatorItemView.xib */,
+				BFB400D221F083E900C9DF75 /* HLCalculatorHistoryListCell.h */,
+				BFB400D321F083E900C9DF75 /* HLCalculatorHistoryListCell.m */,
+				BFB400D421F083E900C9DF75 /* HLCalculatorHistoryListCell.xib */,
+			);
+			path = HLCalculatorClass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFB4009521F082EB00C9DF75 /* HLCalculatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB400C221F082ED00C9DF75 /* Build configuration list for PBXNativeTarget "HLCalculatorDemo" */;
+			buildPhases = (
+				BFB4009221F082EB00C9DF75 /* Sources */,
+				BFB4009321F082EB00C9DF75 /* Frameworks */,
+				BFB4009421F082EB00C9DF75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLCalculatorDemo;
+			productName = HLCalculatorDemo;
+			productReference = BFB4009621F082EB00C9DF75 /* HLCalculatorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFB400AD21F082ED00C9DF75 /* HLCalculatorDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB400C521F082ED00C9DF75 /* Build configuration list for PBXNativeTarget "HLCalculatorDemoTests" */;
+			buildPhases = (
+				BFB400AA21F082ED00C9DF75 /* Sources */,
+				BFB400AB21F082ED00C9DF75 /* Frameworks */,
+				BFB400AC21F082ED00C9DF75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB400B021F082ED00C9DF75 /* PBXTargetDependency */,
+			);
+			name = HLCalculatorDemoTests;
+			productName = HLCalculatorDemoTests;
+			productReference = BFB400AE21F082ED00C9DF75 /* HLCalculatorDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFB400B821F082ED00C9DF75 /* HLCalculatorDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB400C821F082ED00C9DF75 /* Build configuration list for PBXNativeTarget "HLCalculatorDemoUITests" */;
+			buildPhases = (
+				BFB400B521F082ED00C9DF75 /* Sources */,
+				BFB400B621F082ED00C9DF75 /* Frameworks */,
+				BFB400B721F082ED00C9DF75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB400BB21F082ED00C9DF75 /* PBXTargetDependency */,
+			);
+			name = HLCalculatorDemoUITests;
+			productName = HLCalculatorDemoUITests;
+			productReference = BFB400B921F082ED00C9DF75 /* HLCalculatorDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFB4008E21F082EA00C9DF75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = HL;
+				TargetAttributes = {
+					BFB4009521F082EB00C9DF75 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					BFB400AD21F082ED00C9DF75 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BFB4009521F082EB00C9DF75;
+					};
+					BFB400B821F082ED00C9DF75 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BFB4009521F082EB00C9DF75;
+					};
+				};
+			};
+			buildConfigurationList = BFB4009121F082EA00C9DF75 /* Build configuration list for PBXProject "HLCalculatorDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFB4008D21F082EA00C9DF75;
+			productRefGroup = BFB4009721F082EB00C9DF75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFB4009521F082EB00C9DF75 /* HLCalculatorDemo */,
+				BFB400AD21F082ED00C9DF75 /* HLCalculatorDemoTests */,
+				BFB400B821F082ED00C9DF75 /* HLCalculatorDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFB4009421F082EB00C9DF75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB400D621F083E900C9DF75 /* HLCalculatorHistoryListCell.xib in Resources */,
+				BFB400A621F082ED00C9DF75 /* LaunchScreen.storyboard in Resources */,
+				BFB400A321F082ED00C9DF75 /* Assets.xcassets in Resources */,
+				BFB400D821F0844200C9DF75 /* HLCalculatorItemView.xib in Resources */,
+				BFB400A121F082EB00C9DF75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB400AC21F082ED00C9DF75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB400B721F082ED00C9DF75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFB4009221F082EB00C9DF75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB4009E21F082EB00C9DF75 /* ViewController.m in Sources */,
+				BFB400CE21F0833F00C9DF75 /* HLCalculatorController.m in Sources */,
+				BFB400A921F082ED00C9DF75 /* main.m in Sources */,
+				BFB4009B21F082EB00C9DF75 /* AppDelegate.m in Sources */,
+				BFB400D521F083E900C9DF75 /* HLCalculatorHistoryListCell.m in Sources */,
+				BFB400D121F0837300C9DF75 /* HLCalculatorItemView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB400AA21F082ED00C9DF75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB400B321F082ED00C9DF75 /* HLCalculatorDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB400B521F082ED00C9DF75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB400BE21F082ED00C9DF75 /* HLCalculatorDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFB400B021F082ED00C9DF75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFB4009521F082EB00C9DF75 /* HLCalculatorDemo */;
+			targetProxy = BFB400AF21F082ED00C9DF75 /* PBXContainerItemProxy */;
+		};
+		BFB400BB21F082ED00C9DF75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFB4009521F082EB00C9DF75 /* HLCalculatorDemo */;
+			targetProxy = BFB400BA21F082ED00C9DF75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFB4009F21F082EB00C9DF75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFB400A021F082EB00C9DF75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFB400A421F082ED00C9DF75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFB400A521F082ED00C9DF75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFB400C021F082ED00C9DF75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFB400C121F082ED00C9DF75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFB400C321F082ED00C9DF75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R2HZ2T5QPW;
+				INFOPLIST_FILE = HLCalculatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = huanglei1926.HLCalculatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFB400C421F082ED00C9DF75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R2HZ2T5QPW;
+				INFOPLIST_FILE = HLCalculatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = huanglei1926.HLCalculatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFB400C621F082ED00C9DF75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLCalculatorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = huanglei1926.HLCalculatorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLCalculatorDemo.app/HLCalculatorDemo";
+			};
+			name = Debug;
+		};
+		BFB400C721F082ED00C9DF75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLCalculatorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = huanglei1926.HLCalculatorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLCalculatorDemo.app/HLCalculatorDemo";
+			};
+			name = Release;
+		};
+		BFB400C921F082ED00C9DF75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLCalculatorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = huanglei1926.HLCalculatorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HLCalculatorDemo;
+			};
+			name = Debug;
+		};
+		BFB400CA21F082ED00C9DF75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLCalculatorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = huanglei1926.HLCalculatorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HLCalculatorDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFB4009121F082EA00C9DF75 /* Build configuration list for PBXProject "HLCalculatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB400C021F082ED00C9DF75 /* Debug */,
+				BFB400C121F082ED00C9DF75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB400C221F082ED00C9DF75 /* Build configuration list for PBXNativeTarget "HLCalculatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB400C321F082ED00C9DF75 /* Debug */,
+				BFB400C421F082ED00C9DF75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB400C521F082ED00C9DF75 /* Build configuration list for PBXNativeTarget "HLCalculatorDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB400C621F082ED00C9DF75 /* Debug */,
+				BFB400C721F082ED00C9DF75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB400C821F082ED00C9DF75 /* Build configuration list for PBXNativeTarget "HLCalculatorDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB400C921F082ED00C9DF75 /* Debug */,
+				BFB400CA21F082ED00C9DF75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFB4008E21F082EA00C9DF75 /* Project object */;
+}
